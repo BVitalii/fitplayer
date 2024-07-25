@@ -6,8 +6,7 @@ class Container1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      body:   Center(
+    return  Center(
         child: Container (
           width: 100,
           height: 100,
@@ -19,7 +18,6 @@ class Container1 extends StatelessWidget {
             ),
           ),
         ),
-      ),
-    );
+      );
   }
   }
